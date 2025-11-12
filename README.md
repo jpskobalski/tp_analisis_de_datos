@@ -24,6 +24,8 @@ Los pasos a seguir
 
 * Division en train y test
 
+Feature Engineering:
+* Creacion de la variable lethality_class (alta media baja) y de best_est_cleaned (ya creada en outliers)
 ----------
 ### VER MAS ADELANTE
 * escalar y/o normalizar las variables
