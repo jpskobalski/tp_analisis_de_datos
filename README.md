@@ -1,6 +1,14 @@
 # TP Análisis de Datos
 
-Lunes 10/11: El objetivo del trabajo practico va a ser preparar los datos para entrenar un modelo del ML que clasifique los conflictos por si nivel de Letalidad, alta media baja, utilizando como output la variable best.
+El objetivo del presente trabajo práctico es preparar y analizar los datos del UCDP Georeferenced Event Dataset (GED) con el fin de construir un conjunto de datos adecuado para el entrenamiento de un modelo de aprendizaje supervisado de clasificación, cuyo propósito será predecir el nivel de letalidad de los eventos de conflicto armado.
+
+Cada registro del dataset representa un evento individual de violencia, por lo que la clasificación se realizará a nivel de evento y no de conflicto.
+
+Para ello, se unificaron y depuraron las estimaciones de muertes (low, best, high) generando la variable best_est_cleaned, una medida continua, coherente y representativa de la cantidad estimada de víctimas por evento.
+A partir de esta variable, se definieron tres rangos de letalidad que categorizan los eventos como de baja, media o alta letalidad.
+
+De este modo, el modelo tendrá un enfoque clasificador, y no de regresión, utilizando la variable lethality_class (derivada de best_est_cleaned) como output o variable objetivo.
+El objetivo final es dejar el dataset completamente preparado para el entrenamiento posterior de dicho modelo.
 
 Los pasos realizados:
 - Exploración y comprensión de los datos
