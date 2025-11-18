@@ -1,6 +1,6 @@
 # TP Análisis de Datos
 
-El objetivo del presente trabajo práctico es preparar y analizar los datos del UCDP Georeferenced Event Dataset (GED) con el fin de construir un conjunto de datos adecuado para el entrenamiento de un modelo de aprendizaje supervisado de clasificación, cuyo propósito será predecir el nivel de letalidad de los eventos de conflicto armado.
+El objetivo es preparar y analizar los datos del UCDP Georeferenced Event Dataset (GED) con el fin de construir un conjunto de datos adecuado para el entrenamiento de un modelo de aprendizaje supervisado de clasificación, cuyo propósito será predecir el nivel de letalidad de los eventos de conflicto armado.
 
 Cada registro del dataset representa un evento individual de violencia, por lo que la clasificación se realizará a nivel de evento y no de conflicto.
 
